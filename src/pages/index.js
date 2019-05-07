@@ -21,8 +21,6 @@ export default ({ data }) => {
             <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
             {data.allMarkdownRemark.edges.map(({ node }) => (
                 // {node.frontmatter.category === 'Blog' ? 
-                <>
-                {node.frontmatter.category === 'Blog' ? 
                     <div key={node.id}>
                     <Link 
                         to={node.fields.slug}
@@ -50,9 +48,6 @@ export default ({ data }) => {
                         <p>{node.excerpt}</p>
                     </Link>
                     </div>
-                 : ''}
-                    </>
-            //   : ''}
             ))}
           </div>
         </Layout>
