@@ -7,9 +7,6 @@ description: ALL THE PANDAS
 
 ## BANANA
 
-Hello There
-
-1. A list
-2. With another thing'
+i love pandas
 
 \[\`www.google.com\`](https://www.netlifycms.org/docs/collection-types/)
