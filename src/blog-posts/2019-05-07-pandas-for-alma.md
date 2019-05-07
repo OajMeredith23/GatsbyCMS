@@ -7,11 +7,9 @@ description: ALL THE PANDAS
 
 ## BANANA
 
-
-
 Hello There
 
 1. A list
 2. With another thing'
 
-`www.google.com`
+\[\`www.google.com\`](https://www.netlifycms.org/docs/collection-types/)
