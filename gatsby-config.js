@@ -14,6 +14,7 @@ module.exports = {
       `gatsby-transformer-remark`,
       `gatsby-plugin-emotion`,
       `gatsby-plugin-netlify-cms`,
+      `gatsby-plugin-sass`,
       {
         resolve: `gatsby-plugin-typography`,
         options: {

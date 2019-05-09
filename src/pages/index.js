@@ -3,7 +3,7 @@ import { graphql, Link } from "gatsby"
 import { css } from "@emotion/core"
 import { rhythm } from "../utils/typography"
 import Layout from "../components/layout"
-
+import '../styles/styles.sass'
 export default ({ data }) => {
     console.log(data)
 
@@ -20,7 +20,6 @@ export default ({ data }) => {
             </h1>
             <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
             {data.allMarkdownRemark.edges.map(({ node }) => (
-                // {node.frontmatter.category === 'Blog' ? 
                     <div key={node.id}>
                     <Link 
                         to={node.fields.slug}
